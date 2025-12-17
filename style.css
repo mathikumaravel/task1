@@ -60,6 +60,7 @@ padding: 20px 0px;
   border-color: #fa7436;
   border-style: solid;
   border-radius: 4.5px;
+  box-shadow: 0 12px 30px rgba(250, 116, 54, 0.2)
 }
 .login-button {
   font-family: "Poppins", sans-serif;
