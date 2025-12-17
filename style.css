@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 100%;
+}
+.menu {
+      max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+padding: 20px 0px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: "Volkhov", serif;
+  font-weight: bolder;
+  font-size: 22px;
+  margin-right: 10px;
+}
+.logo-icon {  width: 18px;
+  height: 18px;
+}
+.nav-ul {
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.nav-ul li {
+  margin: 0px 10px;
+}
+.nav-ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #222222;
+  text-decoration: none;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  
+}
+.signup-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 10px 40px;
+  font-style: normal;
+  background-color: #fa7436;
+  color: #ffffff;
+  border-color: #fa7436;
+  border-style: solid;
+  border-radius: 4.5px;
+}
+.login-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #fa7436;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 50px; 
+}
+.login-button:hover {
+  text-decoration: underline;
+}
