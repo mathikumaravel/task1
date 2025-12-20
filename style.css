@@ -4,40 +4,54 @@
   box-sizing: border-box;
 }
 
+.hero-section {
+  background-color: #FEFCFB;
+}
+
 .nav {
   width: 100%;
 }
+
 .menu {
-      max-width: 1200px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-padding: 20px 0px;
+  padding: 20px 0px;
 }
+
 .logo-container {
   display: flex;
   align-items: center;
+  padding-left: 30px;
 }
+
 .logo {
   font-family: "Volkhov", serif;
   font-weight: bolder;
   font-size: 22px;
   margin-right: 10px;
 }
-.logo-icon {  width: 18px;
+
+.logo-icon {
+  width: 18px;
   height: 18px;
 }
+
 .nav-ul {
   margin: 0px;
   list-style: none;
   display: flex;
   flex-direction: row;
+  padding-right: 20px;
 }
+
 .nav-ul li {
   margin: 0px 10px;
 }
+
 .nav-ul li a {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
@@ -45,11 +59,12 @@ padding: 20px 0px;
   color: #222222;
   text-decoration: none;
 }
+
 .btn {
   display: flex;
   align-items: center;
-  
 }
+
 .signup-button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -60,18 +75,299 @@ padding: 20px 0px;
   border-color: #fa7436;
   border-style: solid;
   border-radius: 4.5px;
-  box-shadow: 0 12px 30px rgba(250, 116, 54, 0.2)
+  box-shadow: 0 12px 30px rgba(250, 116, 54, 0.2);
 }
+
 .login-button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  color: #fa7436;
+  color: #FD8D3A;
   background: none;
   border: none;
   cursor: pointer;
-  margin-right: 50px; 
+  margin-right: 50px;
 }
+
 .login-button:hover {
   text-decoration: underline;
+}
+
+.hero-section-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 60px 34px;
+  width: 50%;
+}
+
+.content-head {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 54px;
+}
+
+.content-para {
+  display: flex;
+  justify-content: space-around;
+  line-height: 200%;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-right: 90px;
+}
+.highlight{
+  color: #fa7436;
+}
+
+.content-button {
+  padding-top: 30px;
+}
+
+.discover-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 10px 30px;
+  font-style: normal;
+  background-color: #ffffff;
+  color: #fa7436;
+  border-color: #fa7436;
+  border-style: groove;
+  border-radius: 4.5px;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 50%;
+  height: 530px;
+}
+
+.bg-shape {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 450px;
+  z-index: 1;
+}
+
+.person {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 380px;
+  z-index: 2;
+}
+
+.decor {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.info-card {
+  position: absolute;
+  z-index: 4;
+}
+
+.info-card img {
+  width: 180px;
+  height: auto;
+}
+
+.card-award {
+  top: 140px;
+  left: -20px;
+}
+
+.card-explore {
+  top: 260px;
+  right: -30px;
+}
+
+.card-review {
+  bottom: 120px;
+  left: 40px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.search-content {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+  border-color: #ffffff;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(15, 14, 14, 0.2);
+  width: 800px;
+  height: 100px;
+}
+/* 
+.search-item {} */
+
+.search-item-group {
+  display: flex;
+  align-items: center;
+}
+
+.group-item-container {
+  padding-right: 40Px;
+}
+
+.group-item {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding-right: 2px;
+}
+
+.search-icon {
+  width: 13px;
+  height: 7px;
+}
+
+.explore-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 10px 20px;
+  font-style: normal;
+  background-color: #fa7436;
+  color: #ffffff;
+  border-color: #fa7436;
+  border-style: solid;
+  border-radius: 4.5px;
+  box-shadow: 0 12px 30px rgba(250, 116, 54, 0.2);
+}
+
+.group-item-text {
+  color: gray;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+.things-your-need{
+  background-color: #F7F8FC;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+.things-your-need-content{
+  display: flex;
+  flex-direction: row;
+}
+.things-content{
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+
+}
+.things-content-head{
+  display: flex;
+  justify-content: center;
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+   padding-left: 374px;
+}
+.things-content-para {
+  color: gray;
+  display: flex;
+  justify-content: space-around;
+  line-height: 200%;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  padding-left: 420px;
+}
+.things-highlight{
+  padding-left: 10Px;
+}
+.things-element{
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.things-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ffffff;
+  width: 320px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+  text-align: left;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto; /* or cover */
+}
+
+/* first card background */
+.card:nth-child(1) {
+  background-image: url("./images/Vector-4857.png");
+}
+
+/* second card background */
+.card:nth-child(2) {
+  background-image: url("./images/Vector-4856-1.png");
+}
+
+/* third card background */
+.card:nth-child(3) {
+  background-image: url("./images/Vector-4857.png");
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.card p {
+  font-family: "Poppins", sans-serif;
+  color: #6b6b6b;
+  font-size: 15px;
+  line-height: 1.6;
 }
